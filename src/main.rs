@@ -6,6 +6,7 @@ use bevy_ecs_tilemap::TilemapPlugin;
 use crate::map::MapPlugin;
 
 const BACKGROUND_COLOR: Color = Color::rgb(1.0, 1.0, 1.0);
+
 fn main() {
     App::new()
         .add_plugins(DefaultPlugins)
